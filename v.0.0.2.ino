@@ -20,7 +20,7 @@ char* numbers[] = {
 int dotDelay = 200;
 
 // Replace with your network credentials
-const char* ssid     = "ESP32-Access-Point";
+const char* ssid     = "ESP32-Morse-AP";
 const char* password = "123456789";
 
 // Set web server port number to 80
@@ -150,7 +150,7 @@ delay(dotDelay * 4);
             client.println(".button2 {background-color: #555555;}</style></head>");
             
             // Web Page Heading
-            client.println("<body><h1>ESP32 Web Server</h1>");
+            client.println("<body><h1>ESP32 Morse Web Server</h1>");
             
             // Display current state, and ON/OFF buttons for GPIO 26  
             client.println("<p>GPIO 26 - State " + output26State + "</p>");
