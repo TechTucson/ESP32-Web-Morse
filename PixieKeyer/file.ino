@@ -210,7 +210,7 @@ ESP32 CW Controller
 <h2>Message</h2>
 
 <textarea id="message"
-          placeholder="Enter CW message...">SOS</textarea>
+          placeholder="Enter CW message...">CQ CQ CQ DE CALLSIGN CALLSIGN K</textarea>
 
 
 <p>
@@ -284,14 +284,14 @@ Ready
 
 <div class="messageText">
 
-CQ CQ CQ DE KK7BGO KK7BGO K
+CQ CQ CQ DE CALLSIGN CALLSIGN K
 
 </div>
 
 
 <button class="send"
         onclick="transmitText(
-          'CQ CQ CQ DE KK7BGO KK7BGO K'
+          'CQ CQ CQ DE CALlSIGN CALLSIGN K'
         )">
 
 SEND CQ
