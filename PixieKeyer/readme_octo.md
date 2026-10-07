@@ -1,3 +1,4 @@
+While this was the initial circuit, it did not ground the PTT or CW key. I will create V2. We added a 1k Resistor and a 2N2222
 ~~~
 ESP32 GPIO 26
       │
